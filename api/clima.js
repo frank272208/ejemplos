@@ -3,7 +3,7 @@
 // id cochabamba 3919966
 // url api.openweathermap.org/data/2.5/weather?id=4404348&units=metric&appid={986592cac35e7c6455536dcc37352645986592cac35e7c6455536dcc37352645}
 
-const requestURL="https://api.openweathermap.org/data/2.5/weather?id=4404348&units=metric&appid={986592cac35e7c6455536dcc37352645986592cac35e7c6455536dcc37352645}"
+const requestURL='https://api.openweathermap.org/data/2.5/weather?id=4404348&units=metric&appid={986592cac35e7c6455536dcc37352645986592cac35e7c6455536dcc37352645}'
 const request = new XMLHttpRequest();
 request.open('GET',requestURL);
 request.responseType='json';
