@@ -7,7 +7,7 @@ const requestURL='https://api.openweathermap.org/data/2.5/weather?id=4404348&uni
 const request = new XMLHttpRequest();
 request.open('GET',requestURL);
 request.responseType = 'json';
-request.send();
+//request.send();
 
 // obteniendo los datos json
 
