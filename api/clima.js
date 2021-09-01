@@ -6,12 +6,12 @@
 const requestURL='https://api.openweathermap.org/data/2.5/weather?id=4404348&units=metric&appid={986592cac35e7c6455536dcc37352645986592cac35e7c6455536dcc37352645}'
 const request = new XMLHttpRequest();
 request.open('GET',requestURL);
-request.responseType='json';
+request.responseType = 'json';
 request.send();
 
 // obteniendo los datos json
 
-request.onload=function()
+request.onload = function()
 {
     const clima_json= request.response;
     console.log(clima_json); 
