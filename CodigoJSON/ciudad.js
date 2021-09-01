@@ -1,5 +1,5 @@
-//const header = document.querySelector('header');
-//const section = document.querySelector('section');
+const header = document.querySelector('header');
+const section = document.querySelector('section');
 //const requestURL = "https://faviolasoliz.github.io/MiRepositorio/Practicas/JSON/ciudad.json";
 //const requestURL = "https://frank272208.github.io/ejemplos/ejemplos/CodigoJSON/ciudad.json";
 const requestURL = "https://frank272208.github.io/ejemplos/CodigoJSON/ciudad.json";
